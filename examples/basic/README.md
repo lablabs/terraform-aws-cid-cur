@@ -14,7 +14,8 @@ The code in this example shows how to use the module with basic configuration an
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_example_module"></a> [example\_module](#module\_example\_module) | ../../ | n/a |
+| <a name="module_cur_destination"></a> [cur\_destination](#module\_cur\_destination) | ../../ | n/a |
+| <a name="module_cur_source"></a> [cur\_source](#module\_cur\_source) | ../../ | n/a |
 
 ## Resources
 

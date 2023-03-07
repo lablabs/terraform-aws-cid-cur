@@ -41,7 +41,7 @@ variable "source_account_ids" {
 variable "cfn_template_url" {
   type        = string
   description = "(Default) CID CFN template URL to use"
-  default     = "https://aws-managed-cost-intelligence-dashboards.s3.amazonaws.com/cfn/cur-aggregation.yml"
+  default     = "https://aws-managed-cost-intelligence-dashboards.s3.amazonaws.com/cfn/cur-aggregation.yaml"
 }
 
 variable "capabilities_iam" {

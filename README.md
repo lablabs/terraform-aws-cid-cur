@@ -73,7 +73,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_usage"></a> [usage](#input\_usage) | (Mandatory) Usage of CID CUR template - source or destination | `string` | n/a | yes |
 | <a name="input_capabilities_iam"></a> [capabilities\_iam](#input\_capabilities\_iam) | (Default) List of IAM capabilties requested for cloudformation stack execution | `list(string)` | <pre>[<br>  "CAPABILITY_IAM"<br>]</pre> | no |
-| <a name="input_cfn_template_url"></a> [cfn\_template\_url](#input\_cfn\_template\_url) | (Default) CID CFN template URL to use | `string` | `"https://aws-managed-cost-intelligence-dashboards.s3.amazonaws.com/cfn/cur-aggregation.yml"` | no |
+| <a name="input_cfn_template_url"></a> [cfn\_template\_url](#input\_cfn\_template\_url) | (Default) CID CFN template URL to use | `string` | `"https://aws-managed-cost-intelligence-dashboards.s3.amazonaws.com/cfn/cur-aggregation.yaml"` | no |
 | <a name="input_create_cur"></a> [create\_cur](#input\_create\_cur) | (Default) Enable creation of cur. Default true. | `bool` | `true` | no |
 | <a name="input_destination_account_id"></a> [destination\_account\_id](#input\_destination\_account\_id) | (Optional) Destination account id - put current account id | `string` | `""` | no |
 | <a name="input_resource_prefix"></a> [resource\_prefix](#input\_resource\_prefix) | (Default) Prefix for CUR resources | `string` | `"cid"` | no |
